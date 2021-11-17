@@ -1,2 +1,15 @@
-package Sorting_Algorithm.Bubble_Sort;public class BubbleSort {
+package Sorting_Algorithm.Bubble_Sort;
+
+import java.util.Scanner;
+
+public class BubbleSort {
+    public BubbleSort (){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Nhap vao so luong phan tu mang so nguyen can tao: ");
+        int soLuongPhanTu = Integer.parseInt(sc.nextLine());
+        int[] arr = new int[soLuongPhanTu];
+
+    }
+
+
 }

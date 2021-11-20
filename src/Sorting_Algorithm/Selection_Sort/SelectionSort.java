@@ -20,7 +20,7 @@ public class SelectionSort {
         Helper.printArray(arr);
     }
 
-    private void sortBySelectionAlgorithm(int[] arr){
+    static void sortBySelectionAlgorithm(int[] arr){
         for (int i = 0; i < arr.length; i++) {
             int idxMin=i;
             int min = arr[i];

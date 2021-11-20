@@ -2,7 +2,10 @@ package SearchAlgorithms;
 
 import Sorting_Algorithm.Helper;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class ExponentialSearch {
     public ExponentialSearch() {
@@ -21,6 +24,10 @@ public class ExponentialSearch {
         System.out.println("Nhap gia tri can tim theo Exponential Search: ");
         int soCanTim = Integer.parseInt(sc.nextLine());
         System.out.println("Tim thay vi tri cua so can tim tai i = " + exponentialSearch(arr, soCanTim));
+
+
+
+
     }
 
     private int exponentialSearch(int[] arr, int searchNumber) {
